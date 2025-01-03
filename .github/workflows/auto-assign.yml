@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: gh pr edit ${{ github.event.pull_request.number }} --reviewer cidkumagai
+      - run: gh pr edit ${{ github.event.pull_request.number }} --add-reviewer cidkumagai
