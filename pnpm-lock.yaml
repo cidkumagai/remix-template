@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@remix-run/node':
-    specifier: ^2.15.1
-    version: 2.15.1(typescript@5.1.6)
+    specifier: ^2.15.2
+    version: 2.15.2(typescript@5.1.6)
   '@remix-run/react':
     specifier: ^2.15.1
     version: 2.15.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)
@@ -1428,6 +1428,25 @@ packages:
       typescript: 5.1.6
       undici: 6.21.0
 
+  /@remix-run/node@2.15.2(typescript@5.1.6):
+    resolution: {integrity: sha512-NS/h5uxje7DYCNgcKqKAiUhf0r2HVnoYUBWLyIIMmCUP1ddWurBP6xTPcWzGhEvV/EvguniYi1wJZ5+X8sonWw==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      typescript: ^5.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@remix-run/server-runtime': 2.15.2(typescript@5.1.6)
+      '@remix-run/web-fetch': 4.4.2
+      '@web3-storage/multipart-parser': 1.0.0
+      cookie-signature: 1.2.2
+      source-map-support: 0.5.21
+      stream-slice: 0.1.2
+      typescript: 5.1.6
+      undici: 6.21.0
+    dev: false
+
   /@remix-run/react@2.15.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
     resolution: {integrity: sha512-h0BVUeg87vt3FKbYfoF7Ln56MM3O8rvGLDKYOuPY0OgNlJVaQKQzWVX+mnlmzysX4hF7WnOPMw1q38Ow7N9wKg==}
     engines: {node: '>=18.0.0'}
@@ -1486,6 +1505,25 @@ packages:
       source-map: 0.7.4
       turbo-stream: 2.4.0
       typescript: 5.1.6
+
+  /@remix-run/server-runtime@2.15.2(typescript@5.1.6):
+    resolution: {integrity: sha512-OqiPcvEnnU88B8b1LIWHHkQ3Tz2GDAmQ1RihFNQsbrFKpDsQLkw0lJlnfgKA/uHd0CEEacpfV7C9qqJT3V6Z2g==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      typescript: ^5.1.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@remix-run/router': 1.21.0
+      '@types/cookie': 0.6.0
+      '@web3-storage/multipart-parser': 1.0.0
+      cookie: 0.6.0
+      set-cookie-parser: 2.7.1
+      source-map: 0.7.4
+      turbo-stream: 2.4.0
+      typescript: 5.1.6
+    dev: false
 
   /@remix-run/testing@2.15.1(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6):
     resolution: {integrity: sha512-93snHVXbS3zhl/k76SlBfzxb3BxLjKolNHnS6/Gn7SU9lP6ur2m5FA91cT/VTvNa2NmJrIfB4rO5pe+NuBdLcA==}
