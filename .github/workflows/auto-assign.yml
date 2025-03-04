@@ -6,6 +6,8 @@ jobs:
   assign:
     if: ${{ github.actor == 'dependabot[bot]' }}
     runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
