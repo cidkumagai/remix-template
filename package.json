@@ -24,7 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.7.1",
-    "@eslint/compat": "^1.2.4",
+    "@eslint/compat": "^1.2.7",
     "@remix-run/dev": "^2.15.1",
     "@remix-run/testing": "^2.15.2",
     "@testing-library/jest-dom": "^6.6.3",
