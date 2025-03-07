@@ -65,8 +65,8 @@ devDependencies:
     specifier: ^2.1.8
     version: 2.1.8(vitest@2.1.8)
   '@vitest/eslint-plugin':
-    specifier: ^1.1.24
-    version: 1.1.24(@typescript-eslint/utils@8.26.0)(eslint@9.21.0)(typescript@5.7.3)(vitest@2.1.8)
+    specifier: ^1.1.36
+    version: 1.1.36(@typescript-eslint/utils@8.26.0)(eslint@9.21.0)(typescript@5.7.3)(vitest@2.1.8)
   autoprefixer:
     specifier: ^10.4.19
     version: 10.4.19(postcss@8.4.38)
@@ -2349,10 +2349,10 @@ packages:
       - supports-color
     dev: true
 
-  /@vitest/eslint-plugin@1.1.24(@typescript-eslint/utils@8.26.0)(eslint@9.21.0)(typescript@5.7.3)(vitest@2.1.8):
-    resolution: {integrity: sha512-7IaENe4NNy33g0iuuy5bHY69JYYRjpv4lMx6H5Wp30W7ez2baLHwxsXF5TM4wa8JDYZt8ut99Ytoj7GiDO01hw==}
+  /@vitest/eslint-plugin@1.1.36(@typescript-eslint/utils@8.26.0)(eslint@9.21.0)(typescript@5.7.3)(vitest@2.1.8):
+    resolution: {integrity: sha512-IjBV/fcL9NJRxGw221ieaDsqKqj8qUo7rvSupDxMjTXyhsCusHC6M+jFUNqBp4PCkYFcf5bjrKxeZoCEWoPxig==}
     peerDependencies:
-      '@typescript-eslint/utils': '>= 8.0'
+      '@typescript-eslint/utils': ^8.24.0
       eslint: '>= 8.57.0'
       typescript: '>= 5.0.0'
       vitest: '*'
