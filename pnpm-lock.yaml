@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.16.2
     version: 2.16.2(typescript@5.7.3)
   isbot:
-    specifier: ^4.1.0
-    version: 4.1.0
+    specifier: ^5.1.25
+    version: 5.1.25
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -5021,8 +5021,8 @@ packages:
     resolution: {integrity: sha512-xHjhDr3cNBK0BzdUJSPXZntQUx/mwMS5Rw4A7lPJ90XGAO6ISP/ePDNuo0vhqOZU+UD5JoodwCAAoZQd3FeAKw==}
     dev: true
 
-  /isbot@4.1.0:
-    resolution: {integrity: sha512-Kz7zk1wc0oC0FYLYtqea1RKdEX4XGlqacPhoaq9HSEQamEXQNJ/MzVzBKAQXDCCHO0h/eo4CdZs9t3Jfbup5Aw==}
+  /isbot@5.1.25:
+    resolution: {integrity: sha512-mqU76fmT7cpGG0JX1EzhCZIC+xovpH6TD2SAK18alonk0RG/RgChpGduJTYzRaq9a0COoFA99M9JVtEUOcScIw==}
     engines: {node: '>=18'}
     dev: false
 
